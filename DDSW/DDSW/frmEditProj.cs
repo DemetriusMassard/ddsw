@@ -106,6 +106,7 @@ namespace DDSW
                     Conn.executeNonQuery();
                     Conn.close();
                     clear();
+                    MessageBox.Show("Salvo com Sucesso");
                 }
                 catch (Exception ex)
                 {
@@ -175,6 +176,7 @@ namespace DDSW
                     Conn.executeNonQuery();
                     Conn.close();
                     this.Close();
+                    MessageBox.Show("Excluido com Sucesso");
                 }
                 catch (Exception ex)
                 {

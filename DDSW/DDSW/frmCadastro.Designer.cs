@@ -128,6 +128,7 @@
             this.rdoadm.TabStop = true;
             this.rdoadm.Text = "Prio.1";
             this.rdoadm.UseVisualStyleBackColor = false;
+            this.rdoadm.CheckedChanged += new System.EventHandler(this.rdoadm_CheckedChanged);
             // 
             // rdofunc
             // 
@@ -139,6 +140,7 @@
             this.rdofunc.TabStop = true;
             this.rdofunc.Text = "Prio.0";
             this.rdofunc.UseVisualStyleBackColor = true;
+            this.rdofunc.CheckedChanged += new System.EventHandler(this.rdofunc_CheckedChanged);
             // 
             // frmCadastro
             // 

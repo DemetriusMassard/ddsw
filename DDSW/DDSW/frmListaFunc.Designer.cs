@@ -47,6 +47,7 @@
             this.Email});
             this.dtgfnc.Location = new System.Drawing.Point(12, 12);
             this.dtgfnc.Name = "dtgfnc";
+            this.dtgfnc.ReadOnly = true;
             this.dtgfnc.Size = new System.Drawing.Size(466, 229);
             this.dtgfnc.TabIndex = 0;
             this.dtgfnc.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgfnc_CellClick);
@@ -56,22 +57,26 @@
             // 
             this.cod.HeaderText = "cod";
             this.cod.Name = "cod";
+            this.cod.ReadOnly = true;
             this.cod.Visible = false;
             // 
             // Nome
             // 
             this.Nome.HeaderText = "Nome";
             this.Nome.Name = "Nome";
+            this.Nome.ReadOnly = true;
             // 
             // cpf
             // 
             this.cpf.HeaderText = "Cpf";
             this.cpf.Name = "cpf";
+            this.cpf.ReadOnly = true;
             // 
             // Email
             // 
             this.Email.HeaderText = "Email";
             this.Email.Name = "Email";
+            this.Email.ReadOnly = true;
             // 
             // frmListaFunc
             // 

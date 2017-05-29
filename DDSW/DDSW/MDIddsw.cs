@@ -59,7 +59,7 @@ namespace DDSW
 
         private void MDIddsw_Load(object sender, EventArgs e)
         {
-
+            this.Refresh();
         }
 
         private void MDIddsw_FormClosed(object sender, FormClosedEventArgs e)
@@ -128,6 +128,11 @@ namespace DDSW
         private void menuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
+        }
+
+        private void MDIddsw_Resize(object sender, EventArgs e)
+        {
+            this.Refresh();
         }
     }
 }

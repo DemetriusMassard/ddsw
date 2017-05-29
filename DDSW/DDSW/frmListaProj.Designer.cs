@@ -47,6 +47,7 @@
             this.Empresa});
             this.dtgproj.Location = new System.Drawing.Point(12, 12);
             this.dtgproj.Name = "dtgproj";
+            this.dtgproj.ReadOnly = true;
             this.dtgproj.Size = new System.Drawing.Size(665, 229);
             this.dtgproj.TabIndex = 1;
             this.dtgproj.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgproj_CellClick);
@@ -56,31 +57,35 @@
             // 
             this.cod.HeaderText = "cod";
             this.cod.Name = "cod";
+            this.cod.ReadOnly = true;
             this.cod.Visible = false;
             // 
             // codcontato
             // 
             this.codcontato.HeaderText = "codcontato";
             this.codcontato.Name = "codcontato";
+            this.codcontato.ReadOnly = true;
             this.codcontato.Visible = false;
             // 
             // nome
             // 
             this.nome.HeaderText = "Nome";
             this.nome.Name = "nome";
+            this.nome.ReadOnly = true;
             this.nome.Width = 300;
             // 
             // Empresa
             // 
             this.Empresa.HeaderText = "Empresa";
             this.Empresa.Name = "Empresa";
+            this.Empresa.ReadOnly = true;
             this.Empresa.Width = 300;
             // 
             // frmListaProj
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(695, 248);
+            this.ClientSize = new System.Drawing.Size(695, 265);
             this.Controls.Add(this.dtgproj);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;

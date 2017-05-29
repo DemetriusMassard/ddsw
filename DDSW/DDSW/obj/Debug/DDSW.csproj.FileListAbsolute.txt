@@ -172,3 +172,24 @@ D:\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.pdb
 E:\Sistema 17.05\DDSW\DDSW\bin\Debug\DDSW.exe.config
 E:\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.exe
 E:\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.pdb
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\bin\Debug\DDSW.exe.config
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.exe
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.pdb
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\bin\Debug\DDSW.exe
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\bin\Debug\DDSW.pdb
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\bin\Debug\MySql.Data.dll
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\bin\Debug\MySql.Data.xml
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.csprojResolveAssemblyReference.cache
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.frmCadastro.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.frmCadTarefas.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.frmContatos.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.frmEditFunc.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.frmEditProj.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.frmFuncProj.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.frmListaFunc.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.frmListaProj.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.frmLogin.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.frmTarefas.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.MDIddsw.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.Properties.Resources.resources
+C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.csproj.GenerateResource.Cache

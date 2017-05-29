@@ -51,6 +51,7 @@
             this.Data});
             this.dtgContatos.Location = new System.Drawing.Point(12, 12);
             this.dtgContatos.Name = "dtgContatos";
+            this.dtgContatos.ReadOnly = true;
             this.dtgContatos.Size = new System.Drawing.Size(518, 267);
             this.dtgContatos.TabIndex = 0;
             this.dtgContatos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgContatos_CellContentClick);
@@ -60,27 +61,32 @@
             // 
             this.cod.HeaderText = "cod";
             this.cod.Name = "cod";
+            this.cod.ReadOnly = true;
             this.cod.Visible = false;
             // 
             // nome
             // 
             this.nome.HeaderText = "Nome";
             this.nome.Name = "nome";
+            this.nome.ReadOnly = true;
             // 
             // empresa
             // 
             this.empresa.HeaderText = "Empresa";
             this.empresa.Name = "empresa";
+            this.empresa.ReadOnly = true;
             // 
             // Email
             // 
             this.Email.HeaderText = "Email";
             this.Email.Name = "Email";
+            this.Email.ReadOnly = true;
             // 
             // Data
             // 
             this.Data.HeaderText = "Data";
             this.Data.Name = "Data";
+            this.Data.ReadOnly = true;
             // 
             // tmrRefresh
             // 

@@ -66,16 +66,18 @@ namespace DDSW
         private void btnsubmit_Click(object sender, EventArgs e)
         {
             mskCpf.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
+            double cpf = Convert.ToDouble( mskCpf.Text);
             if (!alterar)
             {
                 try
                 {
                     Connection Conn = new Connection();
-
-                    Conn.setQuery("insert into func(nome, cpf, cep, num,comp, email, rg) values('" + txtNome.Text + "', " + mskCpf.Text + ", " + txtCep.Text + ", '" + txtNumero.Text + "', '" + txtComplemento.Text + "', '" + txtEmail.Text + "', '" + txtRG.Text + "')");
+                    
+                    Conn.setQuery("insert into func(nome, cpf, cep, num,comp, email, rg) values('" + txtNome.Text + "', " + cpf + ", " + txtCep.Text + ", '" + txtNumero.Text + "', '" + txtComplemento.Text + "', '" + txtEmail.Text + "', '" + txtRG.Text + "')");
                     Conn.executeNonQuery();
                     Conn.close();
                     clear();
+                    MessageBox.Show("Salvo com Sucesso");
                 }
                 catch (Exception ex)
                 {
@@ -87,10 +89,11 @@ namespace DDSW
                 try
                 {
                     Connection Conn = new Connection();
-                    Conn.setQuery("update func set nome = '" + txtNome.Text + "', cpf = " + mskCpf.Text + ", cep =  " + txtCep.Text + ", num = '" + txtNumero.Text + "', comp = '" + txtComplemento.Text + "', email = '" + txtEmail.Text + "', rg = '" + txtRG.Text + "' where cod = " + cod);
+                    Conn.setQuery("update func set nome = '" + txtNome.Text + "', cpf = " + cpf + ", cep =  " + txtCep.Text + ", num = '" + txtNumero.Text + "', comp = '" + txtComplemento.Text + "', email = '" + txtEmail.Text + "', rg = '" + txtRG.Text + "' where cod = " + cod);
                     Conn.executeNonQuery();
                     Conn.close();
                     this.Close();
+                    MessageBox.Show("Alterado com Sucesso");
                 }
                 catch (Exception ex)
                 {
@@ -122,6 +125,7 @@ namespace DDSW
                     Conn.close();
                     Application.OpenForms.OfType<frmListaFunc>().FirstOrDefault().carrega();
                     this.Close();
+                    MessageBox.Show("Excluido com Sucesso");
                 }
                 catch (Exception ex)
                 {

@@ -19,12 +19,19 @@ namespace DDSW
         {
             InitializeComponent();
         }
-
+        int pri = 0;
         private void frmCadastro_Load(object sender, EventArgs e)
         {
 
         }
-
+        private void rdoadm_CheckedChanged(object sender, EventArgs e)
+        {
+            pri = 1;
+        }
+        private void rdofunc_CheckedChanged(object sender, EventArgs e)
+        {
+            pri = 0;
+        }
         private void btncadastrar_Click(object sender, EventArgs e)
         {
             mskCpf.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
@@ -59,7 +66,7 @@ namespace DDSW
                         {
                             nivacesso = 0;
                         }
-                        Conn.setQuery("insert into users(cod, user, pass,  niv) values(" + Reader["func_cod"] + ", '" + txtLogin.Text + "', '" +  sb + "', " + nivacesso + ");");
+                        Conn.setQuery("insert into users(cod, user, pass,  niv) values(" + Reader["func_cod"] + ", '" + txtLogin.Text + "', '" +  sb + "', " + pri + ");");
                         Conn.executeNonQuery();
                         Reader.Close();
                         Conn.close();
@@ -67,22 +74,29 @@ namespace DDSW
                         txtSenha.Clear();
                         mskCpf.Clear();
                         txtConfirmarSenha.Clear();
+                        MessageBox.Show("Salvo com sucesso");
                     }
                 }
 
                 mskCpf.TextMaskFormat = MaskFormat.IncludePromptAndLiterals;
 
             }
+            
+              
+            
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+               
             }
+           
         }
 
         private void mskCpf_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
             
         }
-        
+
+       
     }
 }

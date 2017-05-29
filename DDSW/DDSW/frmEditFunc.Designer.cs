@@ -157,7 +157,7 @@
             this.btnsubmit.Name = "btnsubmit";
             this.btnsubmit.Size = new System.Drawing.Size(75, 23);
             this.btnsubmit.TabIndex = 14;
-            this.btnsubmit.Text = "Incluir";
+            this.btnsubmit.Text = "Atualizar";
             this.btnsubmit.UseVisualStyleBackColor = true;
             this.btnsubmit.Click += new System.EventHandler(this.btnsubmit_Click);
             // 
