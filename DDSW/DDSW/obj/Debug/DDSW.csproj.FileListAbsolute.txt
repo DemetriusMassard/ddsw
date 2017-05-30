@@ -177,7 +177,6 @@ C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.exe
 C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.pdb
 C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\bin\Debug\DDSW.exe
 C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\bin\Debug\DDSW.pdb
-C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\bin\Debug\MySql.Data.dll
 C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\bin\Debug\MySql.Data.xml
 C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.csprojResolveAssemblyReference.cache
 C:\Users\lucas\Desktop\Nova pasta (2)\Sistema 17.05\DDSW\DDSW\obj\Debug\DDSW.frmCadastro.resources

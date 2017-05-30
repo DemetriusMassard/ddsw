@@ -20,9 +20,9 @@ namespace DDSW
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            /*try
-            {*/
-
+            try
+            {
+            int a = 0;
                 Connection Conn = new Connection();
 
                 System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create();
@@ -34,7 +34,7 @@ namespace DDSW
                     sb.Append(hash[i].ToString("X2"));
                 }
                 String crip = sb.ToString(); // Retorna senha criptografada 
-
+            
                 Conn.setQuery("select * from users where  user = '" + txtLogin.Text + "' and pass = '" + sb + "'");
                 Conn.executeReader();
                 MySqlDataReader Reader = Conn.getReader();
@@ -44,15 +44,19 @@ namespace DDSW
                 
                 MDI.Show();
                     this.Hide();
+                a = 1;
                 }
 
                 Conn.close();
-            /*}
+            if (a == 0) {
+                MessageBox.Show("Senha ou usuarios invalidos.");
+            }
+            }
             catch(Exception ex)
             {
                 MessageBox.Show("Não foi possível conectar no banco de dados" );
                 MessageBox.Show(ex.Message);
-            }*/
+            }
         }
 
         private void frmLogin_Load(object sender, EventArgs e)
